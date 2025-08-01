@@ -55,6 +55,13 @@
     }
     ul { list-style: none; padding-left: 1rem; }
     ul li { margin: .5rem 0; }
+    .projects ul ul {
+      margin-top: .5rem;
+      margin-left: 1.2rem;
+      font-size: 0.95rem;
+      color: #444;
+      list-style: disc;
+    }
     footer {
       text-align: center;
       padding: 1.5rem;
@@ -105,8 +112,27 @@
   <section id="projects" class="projects">
     <h2>Academic Projects</h2>
     <ul>
-      <li><b>Face Recognition System</b> – Python, Dlib, OpenCV, MediaPipe</li>
-      <li><b>Travel & Destination Guide</b> – HTML, CSS, JavaScript, Bootstrap</li>
+      <li>
+        <b>Face Recognition System</b> – Python, Dlib, OpenCV, MediaPipe
+        <ul>
+          <li>Built a real-time face recognition system using Python, OpenCV, MediaPipe, and dlib.</li>
+          <li>Captured and processed live video streams with OpenCV.</li>
+          <li>Used MediaPipe for fast and accurate facial landmark detection.</li>
+          <li>Applied dlib to generate and compare face embeddings for identification.</li>
+          <li>Designed for hands-free attendance, surveillance, and access control.</li>
+        </ul>
+      </li>
+      <li>
+        <b>Travel & Destination Guide</b> – HTML, CSS, JavaScript, Bootstrap
+        <ul>
+          <li>Designed a user-friendly, responsive UI to help travelers explore 20+ destinations.</li>
+          <li>Handled complete front-end development using HTML, CSS, and JavaScript.</li>
+          <li>Categorized destinations by type: historical sites, hill stations, beaches, spiritual places.</li>
+          <li>Structured the site using semantic HTML and styled with custom CSS for a clean modern look.</li>
+          <li>Ensured responsive design using media queries, flexbox, and CSS grid.</li>
+          <li>Tested across mobile and desktop for layout consistency and performance.</li>
+        </ul>
+      </li>
     </ul>
   </section>
 
